@@ -57,6 +57,8 @@ struct ch_sa_context_t {
 
     size_t ptable_ring_size;
     uint64_t ptable_check_tv;
+    
+    int use_msgpack;
 
 };
 
